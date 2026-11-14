@@ -8,14 +8,15 @@
 
 **English summary** — moi5 Studio is a free local AI studio for Windows 10/11, Korean-first. It runs AI models on your own PC and answers from your own documents with citations; chats and documents stay on the PC by default.
 This repository hosts the official installer, its SHA-256 and the docs only — the source code is not published.
-The installer is not code-signed, so please download only from this page or https://moi5.com/download.html and verify the SHA-256 below.
+Download from https://moi5.com/download.html (the installer file itself is hosted in this repository's Releases). The installer is not code-signed, so please verify the SHA-256 below.
 
 ## 내려받기
 
 | 항목 | 내용 |
 |---|---|
 | 최신 버전 | **34.3** |
-| 설치 파일 | [`moi5Studio_Setup_v34.3.exe`](https://github.com/moi5-studio/download/releases/download/v34.3/moi5Studio_Setup_v34.3.exe) (926 MB) |
+| 내려받기 | **[moi5.com 다운로드 페이지](https://moi5.com/download.html)** |
+| 설치 파일 | `moi5Studio_Setup_v34.3.exe` (926 MB) — 이 저장소의 [Releases](https://github.com/moi5-studio/download/releases/tag/v34.3)에 올라가 있습니다 |
 | 대상 | Windows 10 / 11 (64비트) |
 | 사용 조건 | 무료 · 개인/업무 사용 가능 ([이용약관](LICENSE.md)) |
 
@@ -35,7 +36,7 @@ PowerShell 에서 아래 명령을 실행해 나온 `Hash` 가 위 값과 **한 
 Get-FileHash "$env:USERPROFILE\Downloads\moi5Studio_Setup_v34.3.exe" -Algorithm SHA256
 ```
 
-값이 다르면 설치하지 말고 파일을 지운 뒤, 이 페이지에서 다시 받으십시오.
+값이 다르면 설치하지 말고 파일을 지운 뒤, [moi5.com 다운로드 페이지](https://moi5.com/download.html)에서 다시 받으십시오.
 
 ### 설치할 때 Windows 경고가 뜨면
 

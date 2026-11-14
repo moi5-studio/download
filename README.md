@@ -63,7 +63,7 @@ Get-FileHash "$env:USERPROFILE\Downloads\moi5Studio_Setup_v34.3.exe" -Algorithm 
 - [자주 묻는 질문](FAQ.md)
 - [개인정보처리방침](PRIVACY.md)
 - [이용약관](LICENSE.md)
-- [오픈소스 라이선스 고지](THIRD-PARTY-NOTICES.md) · 원문은 [licenses](licenses/) 폴더
+- [제3자 라이선스 고지](THIRD-PARTY-NOTICES.md) · 원문은 [licenses](licenses/) 폴더
 
 ## 문의 · 버그 신고
 

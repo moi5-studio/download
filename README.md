@@ -6,6 +6,10 @@
 
 > 이 저장소는 **설치 파일과 안내 문서만** 올리는 배포용입니다. 소스 코드는 공개하지 않습니다.
 
+**English summary** — moi5 Studio is a free local AI studio for Windows 10/11, Korean-first. It runs AI models on your own PC and answers from your own documents with citations; chats and documents stay on the PC by default.
+This repository hosts the official installer, its SHA-256 and the docs only — the source code is not published.
+The installer is not code-signed, so please download only from this page or https://moi5.com/download.html and verify the SHA-256 below.
+
 ## 내려받기
 
 | 항목 | 내용 |
@@ -38,6 +42,20 @@ Get-FileHash "$env:USERPROFILE\Downloads\moi5Studio_Setup_v34.3.exe" -Algorithm 
 「Windows의 PC 보호」 창이 뜨면 **[추가 정보] → [실행]** 을 누르십시오. 코드 서명이 없어서
 게시자가 「알 수 없는 게시자」로 나오는 것이며, 위 SHA-256 이 같다면 정상 파일입니다.
 자세한 안내는 [INSTALL.md](INSTALL.md) 를 보십시오.
+
+## 화면
+
+처음 실행하면 이 안내 창이 뜹니다. 모델을 받는 것부터 시작합니다.
+
+![처음 실행하면 뜨는 안내창 — 모델 준비, 대화 시작, 지식 넣기](docs/images/welcome.png)
+
+문서 · 유튜브 영상 · 폴더를 넣으면 그 내용을 근거로 답합니다. 원본 파일은 수정되지 않습니다.
+
+![문서·지식 화면 — 파일, 유튜브 영상, 폴더를 넣는 곳](docs/images/knowledge.png)
+
+근거를 찾지 못하면 「AI 자체 지식으로 답변」이라고 표시합니다. 아래는 PC에 설치한 0.5B 모델이 CPU만으로 문자를 쓴 예(13.90초)입니다.
+
+![채팅 화면 — 근거가 없어 AI 자체 지식으로 답변했다는 표시](docs/images/chat.png)
 
 ## 문서
 

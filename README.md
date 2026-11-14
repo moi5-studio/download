@@ -14,9 +14,9 @@ Download from https://moi5.com/download.html (the installer file itself is hoste
 
 | 항목 | 내용 |
 |---|---|
-| 최신 버전 | **34.3** |
+| 최신 버전 | **34.4** |
 | 내려받기 | **[moi5.com 다운로드 페이지](https://moi5.com/download.html)** |
-| 설치 파일 | `moi5Studio_Setup_v34.3.exe` (926 MB) — 이 저장소의 [Releases](https://github.com/moi5-studio/download/releases/tag/v34.3)에 올라가 있습니다 |
+| 설치 파일 | `moi5Studio_Setup_v34.4.exe` (926 MB) — 이 저장소의 [Releases](https://github.com/moi5-studio/download/releases/tag/v34.4)에 올라가 있습니다 |
 | 대상 | Windows 10 / 11 (64비트) |
 | 사용 조건 | 무료 · 개인/업무 사용 가능 ([이용약관](LICENSE.md)) |
 
@@ -27,13 +27,13 @@ Download from https://moi5.com/download.html (the installer file itself is hoste
 공식 값:
 
 ```
-4798007815d44356c02a0d1c2c8726aef93d5ea813703cb859d0ded6fdafcba7
+9b2c3c4eca27ce2d645d0736544be5b287b38f66ae41bd6e7d6a49471d429936
 ```
 
 PowerShell 에서 아래 명령을 실행해 나온 `Hash` 가 위 값과 **한 글자도 다르지 않아야** 합니다.
 
 ```powershell
-Get-FileHash "$env:USERPROFILE\Downloads\moi5Studio_Setup_v34.3.exe" -Algorithm SHA256
+Get-FileHash "$env:USERPROFILE\Downloads\moi5Studio_Setup_v34.4.exe" -Algorithm SHA256
 ```
 
 값이 다르면 설치하지 말고 파일을 지운 뒤, [moi5.com 다운로드 페이지](https://moi5.com/download.html)에서 다시 받으십시오.

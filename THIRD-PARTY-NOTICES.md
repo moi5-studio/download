@@ -41,7 +41,7 @@ moi5 Studio 는 아래 오픈소스 구성요소를 사용합니다. 각 구성�
 
 | 항목 | 내용 |
 |---|---|
-| 버전 | 6.19.0 |
+| 버전 | 6.21.4 |
 | 출처 | https://pypi.org/project/pypdf/ |
 | 라이선스 | BSD-3-Clause |
 | 저작권 | Copyright (c) 2006-2008, Mathieu Fenniak (외 기여자 — 원문 참고) |
@@ -60,13 +60,13 @@ moi5 Studio 는 아래 오픈소스 구성요소를 사용합니다. 각 구성�
 | 구성요소 | 버전 | 라이선스 | 원문 |
 |---|---|---|---|
 | Python 런타임 (bzip2 · libffi · OpenSSL · Tcl/Tk 포함) | 3.12.0 | PSF-2.0 · OpenSSL 은 Apache-2.0 | `LICENSE-python-runtime.txt` |
-| Pillow | 11.3.0 | MIT-CMU (함께 든 이미지 라이브러리 조건 포함) | `LICENSE-python-pillow.txt` |
+| Pillow | 13.0.0 | MIT-CMU (함께 든 이미지 라이브러리 조건 포함) | `LICENSE-python-pillow.txt` |
 | numpy (OpenBLAS · LAPACK · GCC 런타임 포함) | 2.5.4 | BSD-3-Clause 외 · GCC 런타임은 GPL-3.0 + 런타임 예외 | `LICENSE-python-numpy.txt` |
 | onnxruntime | 1.31.0 | MIT (제3자 고지 포함) | `LICENSE-python-onnxruntime.txt` |
 | tokenizers (Hugging Face) | 0.23.3 | Apache-2.0 | `LICENSE-python-tokenizers.txt` |
 | lxml (libxml2 · libxslt 포함) | 6.1.3 | BSD-3-Clause | `LICENSE-python-lxml.txt` |
 | python-docx | 1.2.0 | MIT | `LICENSE-python-python-docx.txt` |
-| requests | 2.32.5 | Apache-2.0 | `LICENSE-python-requests.txt` |
+| requests | 2.34.2 | Apache-2.0 | `LICENSE-python-requests.txt` |
 | urllib3 | 2.8.0 | MIT | `LICENSE-python-urllib3.txt` |
 | certifi | 2026.7.22 | MPL-2.0 (원본: pypi.org/project/certifi) | `LICENSE-python-certifi.txt` |
 | charset-normalizer | 3.5.1 | MIT | `LICENSE-python-charset-normalizer.txt` |
@@ -75,7 +75,7 @@ moi5 Studio 는 아래 오픈소스 구성요소를 사용합니다. 각 구성�
 | typing_extensions | 4.16.0 | PSF-2.0 | `LICENSE-python-typing_extensions.txt` |
 | PyYAML | 6.0.3 | MIT | `LICENSE-python-PyYAML.txt` |
 | youtube-transcript-api | 1.2.4 | MIT | `LICENSE-python-youtube-transcript-api.txt` |
-| pypdf | 6.19.0 | BSD-3-Clause | `LICENSE-pypdf.txt` (위 항목) |
+| pypdf | 6.21.4 | BSD-3-Clause | `LICENSE-pypdf.txt` (위 항목) |
 
 - 파이썬 런타임에 함께 든 expat · mpdecimal · zlib · SQLite · xz 등의 조건은 Python 공식 고지에 있습니다:
   https://docs.python.org/3.12/license.html#licenses-and-acknowledgements-for-incorporated-software
